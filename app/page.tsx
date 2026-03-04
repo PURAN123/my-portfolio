@@ -20,7 +20,7 @@ const contacts = [
 const quickStats = [
   { value: "4+", label: "Years Experience" },
   { value: "4",  label: "Companies" },
-  { value: "2",  label: "Live Products" },
+  { value: "5+",  label: "Live Products" },
   { value: "10+",label: "Technologies" },
 ];
 

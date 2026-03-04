@@ -24,7 +24,7 @@ const jobs = [
     projectDesc:
       "A legal-tech SaaS platform where attorneys order in-depth background reports on expert witnesses. Legal analysts research the expert, store structured data through an internal CMS, and the platform auto-generates a polished PDF report — delivered to the attorney via email on order completion.",
     bullets: [
-      "Architected a multi-tenant REST and GraphQL API layer using Django REST Framework and Graphene to serve both the attorney-facing portal and the internal legal analyst dashboard",
+      "Worked on a multi-tenant REST API layer using Django REST Framework to serve both the attorney-facing portal and the internal legal analyst dashboard",
       "Integrated the LexisNexis API as the primary data source for expert background data; orchestrated a fleet of Celery workers to fetch, parse, and store research results asynchronously without blocking the main application",
       "Built a dynamic PDF generation engine that compiles structured analyst data into branded, attorney-ready expert witness reports automatically on order completion",
       "Implemented Elasticsearch to power fast, relevance-ranked search across thousands of expert profiles — significantly improving discovery speed for legal analysts",
