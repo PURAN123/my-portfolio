@@ -7,7 +7,7 @@ import { Mail, Phone, Github, Linkedin, ArrowRight, MapPin } from "lucide-react"
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 28 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.65, delay, ease: [0.22, 1, 0.36, 1] },
+  transition: { duration: 0.65, delay, ease: "easeOut" as const },
 });
 
 const contacts = [

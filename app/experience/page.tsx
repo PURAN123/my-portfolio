@@ -8,9 +8,9 @@ import {
 } from "lucide-react";
 
 const fadeUp = (delay = 0) => ({
-  initial: { opacity: 0, y: 24 },
+  initial: { opacity: 0, y: 28 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] },
+  transition: { duration: 0.65, delay, ease: "easeOut" as const },
 });
 
 const jobs = [
@@ -145,7 +145,7 @@ export default function ExperiencePage() {
                       <Briefcase size={13} className="text-[#39d353]" />
                       <h2 className="font-display text-base font-bold text-white">{job.title}</h2>
                       {job.current && (
-                        <Badge variant="green" className="text-[10px] px-2 py-0">current</Badge>
+                        <Badge variant="default" className="text-[10px] px-2 py-0">current</Badge>
                       )}
                     </div>
                     <p className="text-sm text-[#39d353] ml-5">{job.company}</p>

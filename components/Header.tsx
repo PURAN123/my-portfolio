@@ -30,7 +30,7 @@ export default function Header() {
             />
             <span className="font-display text-sm font-700 tracking-wider text-white">
               puran
-              <span className="text-[#39d353]">.dev</span>
+              {/* <span className="text-[#39d353]">.dev</span> */}
             </span>
           </Link>
 

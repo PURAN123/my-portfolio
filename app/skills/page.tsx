@@ -6,9 +6,9 @@ import { Separator } from "@/components/ui/separator";
 import { Server, Globe, Search, Cloud, CreditCard, Database } from "lucide-react";
 
 const fadeUp = (delay = 0) => ({
-  initial: { opacity: 0, y: 24 },
+  initial: { opacity: 0, y: 28 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] },
+  transition: { duration: 0.65, delay, ease: "easeOut" as const },
 });
 
 const skillGroups = [
@@ -200,7 +200,7 @@ export default function SkillsPage() {
               "REST APIs", "SEO Optimisation", "JWT", "OTP Auth",
               "Agile", "Client Meetings",
             ].map((tag) => (
-              <Badge key={tag} variant="muted" className="text-[10px]">{tag}</Badge>
+              <Badge key={tag} variant="default" className="text-[10px]">{tag}</Badge>
             ))}
           </div>
         </div>
